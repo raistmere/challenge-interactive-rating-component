@@ -1,3 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
 * {
-  color: red;
+    /* Colors */
+    --color-orange: hsl(25, 97%, 53%); /* Primary */
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-grey: hsl(217, 12%, 63%);
+    --color-med-grey: hsl(216, 12%, 54%);
+    --color-dark-blue: hsl(213, 19%, 18%);
+    --color-dark-blue2: hsl(211, 19%, 21%);
+    --color-very-dark-blue: hsl(216, 12%, 8%);
+    --color-very-dark-blue2: #171E28;
+
+    /* Fonts */
+    --font-overpass: 'Overpass', sans-serif;
 }
+
+#wrapper {
+    /* General */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--color-very-dark-blue);
+
+    /* Text */
+    font-family: var(--font-overpass);
+    color: var(--color-white);
+}
+
+.rateBox {
+    /* General */
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    background-image: linear-gradient(var(--color-dark-blue), var(--color-very-dark-blue2));
+
+    /* Border */
+    border-radius: 1.5rem;
+}
+
+.starBox {
+    /* General */
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--color-dark-blue2);
+
+    /* Border */
+    border-radius: 50px;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textBox h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.textBox h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-light-grey);
+}
+
+.numButtonsBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.numButton {
+    /* General */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: var(--color-dark-blue2);
+
+    /* Border */
+    border-style: none;
+    border-radius: 50px;
+
+    /* Text */
+    font-size: 1rem;
+    color: var(--color-light-grey);
+}
+
+.numButton:hover {
+    color: var(--color-white);
+
+    background-color: var(--color-orange);
+}
+
+.submitButton {
+    /* General */
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--color-orange);
+
+    /* Border */
+    border-style: none;
+    border-radius: 2rem;
+
+    /* Text */
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    color: var(--color-white);
+}
+
+.submitButton:hover {
+    background-color: var(--color-white);
+    color: var(--color-orange);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    height: 3rem;
+}
+
