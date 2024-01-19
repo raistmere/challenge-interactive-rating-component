@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
-* {
+html {
     /* Colors */
     --color-orange: hsl(25, 97%, 53%); /* Primary */
     --color-white: hsl(0, 0%, 100%);
@@ -13,6 +13,7 @@
 
     /* Fonts */
     --font-overpass: 'Overpass', sans-serif;
+    font-size: 15px;
 }
 
 #wrapper {
@@ -56,18 +57,18 @@
     border-radius: 50px;
 }
 
-.textBox {
+.rateBox > .textBox {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.textBox h1 {
+.rateBox > .textBox > h1 {
     font-weight: 700;
     font-size: 1.5rem;
 }
 
-.textBox h2 {
+.rateBox > .textBox > h2 {
     font-weight: 400;
     font-size: 1rem;
     color: var(--color-light-grey);
@@ -143,13 +144,19 @@
     border-radius: 2rem;
 }
 
-.thankYouBox h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-
+.thankYouBox > .textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.thankYouBox > p {
+.thankYouBox > .textBox > h1 {
+    text-align: center;
+}
+
+.thankYouBox > .textBox > p {
     text-align: center;
     font-size: 1rem;
     color: var(--color-light-grey);

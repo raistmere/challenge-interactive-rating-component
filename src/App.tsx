@@ -29,8 +29,10 @@ function App() {
         <div className="rateSelectedBox">
           <p>You selected 4 out of 5</p>
         </div>
-        <h1>Thank You!</h1>
-        <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        <div className="textBox">
+          <h1>Thank You!</h1>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
       </div>
 
 
