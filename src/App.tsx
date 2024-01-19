@@ -1,11 +1,12 @@
 import './App.css'
 import starIcon from "./assets/images/icon-star.svg";
+import rateSelectedImage from "./assets/images/illustration-thank-you.svg";
 
 function App() {
   return (
     <div id="wrapper">
-      {/* <!-- Rating state start --> */}
-      <div className="rateBox">
+
+      {/* <div className="rateBox">
         <div className="starBox">
           <img src={starIcon} alt="A gold star icon" />
         </div>
@@ -21,21 +22,16 @@ function App() {
           <button className="numButton">5</button>
         </div>
         <button className="submitButton">SUBMIT</button>
+      </div> */}
+
+      <div className="thankYouBox">
+        <img className='rateSelectedImage' src={rateSelectedImage} alt="An image of a processed task" />
+        <div className="rateSelectedBox">
+          <p>You selected 4 out of 5</p>
+        </div>
+        <h1>Thank You!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
       </div>
-
-      {/* <!-- Rating state end --> */}
-
-
-      {/* <!-- Thank you state start --> */}
-
-      {/* You selected <!-- Add rating here --> out of 5
-
-      Thank you!
-
-      We appreciate you taking the time to give a rating. If you ever need more support, 
-      don’t hesitate to get in touch! */}
-
-      {/* <!-- Thank you state end --> */}
 
 
       <div className="attribution">

@@ -30,7 +30,7 @@
     color: var(--color-white);
 }
 
-.rateBox {
+.rateBox, .thankYouBox {
     /* General */
     min-width: 300px;
     max-width: 400px;
@@ -124,6 +124,35 @@
 .submitButton:hover {
     background-color: var(--color-white);
     color: var(--color-orange);
+}
+
+.thankYouBox {
+    align-items: center;
+}
+
+.rateSelectedImage {
+    width: 50%;
+}
+
+.rateSelectedBox {
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .5rem;
+    background-color: var(--color-dark-blue2);
+    color: var(--color-orange);
+    border-radius: 2rem;
+}
+
+.thankYouBox h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.thankYouBox > p {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--color-light-grey);
 }
 
 .attribution {
