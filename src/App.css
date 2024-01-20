@@ -105,6 +105,11 @@ html {
     background-color: var(--color-orange);
 }
 
+.numButton.selected {
+    background-color: var(--color-med-grey);
+    color: var(--color-white);
+}
+
 .submitButton {
     /* General */
     width: 100%;
@@ -169,4 +174,3 @@ html {
     padding: 10px;
     height: 3rem;
 }
-
