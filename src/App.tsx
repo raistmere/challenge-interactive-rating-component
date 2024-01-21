@@ -13,7 +13,6 @@ function App() {
 
   const rateSelected = (numButton : HTMLButtonElement) => {
     let str : String = numButton.textContent ? numButton.textContent : "";
-    console.log(str);
     setSelected(str);
     numButton.classList.add("selected");
   };
@@ -44,6 +43,7 @@ function App() {
 
   return (
     <div id="wrapper">
+      {/* We return html based on if the submit button was pressed */}
       { isSubmit ? (
           <div className="thankYouBox">
             <img className='rateSelectedImage' src={rateSelectedImage} alt="An image of a processed task" />
