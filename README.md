@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/raistmere/challenge-interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://raistmere-interactive-rating.netlify.app/)
+- Solution URL: [Github](https://github.com/raistmere/challenge-interactive-rating-component)
+- Live Site URL: [Netlify](https://raistmere-interactive-rating.netlify.app/)
 
 ## My process
 
@@ -40,4 +40,4 @@ Users should be able to:
 - [Vitest](https://vitest.dev/) - Testing library
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/raistmere)
+- Frontend Mentor - [@raistmere](https://www.frontendmentor.io/profile/raistmere)
